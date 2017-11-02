@@ -1,0 +1,819 @@
+/*
+* NRC imedia - Stylesheet
+
+Student Name: Rachel Cunningham;
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Body
+- Headings
+- Links
+*/
+
+
+/* Body
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+body{
+  margin-top: 30px;
+}
+
+#navigation{
+    list-style-type: none;
+}
+
+#navigation li{
+    float:right;
+    margin-right: 20px;
+    color: #474d54;
+}
+
+#navigation a{
+    color: #474d54;
+}
+
+#navigation a:hover{
+    text-decoration: underline;
+    color: #474d54;
+    
+}
+
+#navigation .active{
+    font-weight:bold;
+}
+
+.top {
+    width: 10%;
+    left: 88%;
+    top: 10%;
+    position: fixed;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    color: #474d54;
+    font-size: 80px;
+    text-align: center;
+    height: 80vh;
+    padding-top: 30vh;
+}
+
+li{
+    font-family: 'Amatic SC', cursive;
+    color: #474d54;
+    font-size: 36px;
+
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    color: #474d54;
+    font-size: 20px;
+    margin-top: 22px;
+    align-content: left;
+
+}
+
+h3{
+    font-family:'Amatic SC', cursive;
+    color: #474d54;
+    font-size: 45px;
+    margin-top:22px;
+    text-align: center;
+    align-content:center;
+
+}
+
+
+img.hover:hover {
+    -webkit-box-shadow: -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 24px;
+    align-content: center;
+}
+
+p{
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-size: 36px;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.portfolioabout p{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 20px;
+    align-content: left;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linktoportfolio p{
+    font-family: 'Amatic SC', cursive;
+    color: #474d54;
+    font-size: 36px;
+    align-content: center;
+}
+
+.contactbuttonhover {
+    width: 25%;
+    margin-right: 288px;
+}
+
+.portfoliotext h1{
+    color:#474d54;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 60px;
+    padding-right: 15px;
+    padding-top: 40px;
+   
+}
+
+.portfoliotext h2{
+    font-family: font-family: 'Raleway', sans-serif;
+    color: #474d54;
+    text-align: left;
+    padding-bottom: 36px; 
+    padding-left: 60px;
+    
+}
+
+.portfolioabout h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    text-align: center;
+    color: #474d54;
+    padding-right: 10px;
+}
+
+#portfolio {
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+.view p{
+    color:#474d54;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.view p{
+    color:#474d54;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.line{
+    padding-top: 20px;
+}
+
+.contactme h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: #474d54;
+    padding-bottom: 50px;
+    align-content: left;
+    text-align: left;
+    margin-left: 320px;
+    padding-top: 20px;
+}
+
+.contact-form h1{
+    font-family: font-family: 'Raleway', sans-serif; 
+}
+
+ #about-link{
+    margin-top: 22px;
+ }
+
+.about-section h3{
+    color:#474d54;
+    text-align:left;
+    padding-bottom: 20px;
+
+}
+
+.about-section p{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    text-align:left;
+    font-size: 20px
+}
+
+#about-block{
+    
+    background:#ccc;
+}
+
+#contact-block{
+    background:#ccc;
+    
+}
+
+
+.textbox{
+    border: 2px block #e71d73;
+    font-family: 'Raleway', sans-serif;
+    padding: 2em;
+    -webkit-appearance: none;  
+}
+
+.emailbox{
+    border: 2px block #e71d73;
+    font-family: 'Raleway', sans-serif;
+    padding: 2em;
+    -webkit-appearance: none;  
+    
+}
+
+.messagebox{
+    border: 2px block #e71d73;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+    height: 0;
+    min-height: 8em;
+    -webkit-appearance: none;  
+    text-align:;
+    align-content:;
+}
+
+.submit{
+    width: 20%;
+    margin-bottom: 60px;
+    
+    
+}
+
+#footer{
+    height:100px;
+    width: 100%;
+    background-color:#474d54;
+
+}
+
+#footer .text-left{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    color:#fff;
+}
+
+#footer .text-right{
+    display: inline-block;
+    float:right;
+    padding-right: 15px;
+    padding-top: 20px;;
+}
+
+
+
+.icons{
+    
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+
+.icons{
+    align-content: center;
+    padding-left: 60px;
+}
+
+.icons img{
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+
+
+.socialhover:hover{
+    -webkit-box-shadow: -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 0px 17px 0px rgba(231, 31, 116, 1);
+    
+}
+
+img.hover:hover {
+    -webkit-box-shadow: -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+
+.row{
+    
+    padding-bottom: 20px;
+}
+
+.row p{
+    color: #474d54;
+    align-content: left;
+    
+}
+
+
+.smallicons img{
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-content: center;
+    
+}
+
+.a-section h2{
+    align-content: center;
+    margin-right: 50px;
+}
+
+
+
+/* about
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#a-section {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#b-section {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    margin-top: 5px;
+
+}
+
+p{
+    margin-top: 2px;
+}
+
+#a-section h2{
+    font-size: 45px;
+}
+
+#a-section h3{
+    font-size: 20px;
+    
+}
+
+#a-section p{
+    text-align: left;
+}
+
+#b-section {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    margin-top: 5px;
+    font-size: 20px;
+    align-content: center;
+}
+
+#b-section h2 {
+    text-align: left;
+    margin-top: 5px;
+    font-size: 45px;
+    align-content: center;
+}
+
+#b-section p {
+    font-family: 'Raleway', sans-serif;
+    text-align:left;
+    padding-top: 5px;
+    align-content: left;
+    font-size: 20px;
+
+}
+
+
+.c-section p{
+    text-align: center;
+
+}
+
+/* Logos page */
+
+.logos p{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.logosabout h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.logosabout p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+}
+
+.logos h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    
+}
+
+
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 300px) {
+
+  body{
+    background:#fff;
+  }
+    
+    .row h1{
+        padding-left:100px;
+    }
+    
+    .contactbuttonhover{
+        width: 70%;
+        padding-right: 100px;
+        align-content: center;
+        margin-right: 288px;
+    }
+
+    .contact h2{
+        margin-right: 200px;
+    }
+    
+    
+    .contactme h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: #474d54;
+    padding-bottom: 50px;
+    align-content: left;
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+    
+    .portfoliotext h1{
+    color:#474d54;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 2px;
+    padding-right: 15px;
+    padding-top: 40px;
+   
+}
+
+.portfoliotext h2{
+    font-family: font-family: 'Raleway', sans-serif;
+    color: #474d54;
+    text-align: left;
+    padding-bottom: 36px; 
+    padding-left: 2px;
+    
+}
+    
+    .logos p{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+.logosabout h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.logosabout p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    padding-left: 10px;
+    
+}
+
+.logos h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    
+}
+
+    .logos{
+        padding-bottom: 20px;
+    }
+}
+
+/*/ Closing Tag /*/
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+  body{
+    background:#fff;
+  }
+    
+    .contactbuttonhover{
+        width: 35%;
+        padding-right: 100px;
+        align-content: center;
+        margin-right: 288px;
+    }
+
+    .contactme h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: #474d54;
+    padding-bottom: 50px;
+    align-content: left;
+    text-align: left;
+    margin-left: 190px;
+    padding-top: 20px;
+}
+    
+    .portfoliotext h1{
+    color:#474d54;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 40px;
+   
+}
+
+.portfoliotext h2{
+    font-family: font-family: 'Raleway', sans-serif;
+    color: #474d54;
+    text-align: left;
+    padding-bottom: 36px; 
+    padding-left: 5px;
+    
+}
+    
+    .logos p{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+
+.logosabout h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+.logosabout p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    
+}
+
+.logos h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    
+}
+
+
+}/*/ Closing Tag /*/
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+  body{
+    background:#fff;
+  }
+
+    .contactbuttonhover{
+        width: 35%;
+        padding-right: 100px;
+        align-content: center;
+        margin-right: 288px;
+    }
+    
+    .contactme h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: #474d54;
+    padding-bottom: 50px;
+    align-content: left;
+    text-align: left;
+    margin-left: 240px;
+    padding-top: 20px;
+}
+    
+    .portfoliotext h1{
+    color:#474d54;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 40px;
+   
+}
+
+.portfoliotext h2{
+    font-family: font-family: 'Raleway', sans-serif;
+    color: #474d54;
+    text-align: left;
+    padding-bottom: 36px; 
+    padding-left: 5px;
+    
+}
+    
+    .logos p{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.logosabout h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.logosabout p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    
+}
+
+.logos h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    
+}
+
+
+}/*/ Closing Tag /*/
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+  body{
+    background:#fff;
+  }
+
+   .contactbuttonhover{
+        width: 50%;
+        padding-right: 100px;
+        align-content: center;
+        margin-right: 288px;
+    }
+    
+    .contactme h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: #474d54;
+    padding-bottom: 50px;
+    align-content: left;
+    text-align: left;
+    margin-left: 290px;
+    padding-top: 20px;
+}
+    
+    .portfoliotext h1{
+    color:#474d54;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 40px;
+   
+}
+
+.portfoliotext h2{
+    font-family: font-family: 'Raleway', sans-serif;
+    color: #474d54;
+    text-align: left;
+    padding-bottom: 36px; 
+    padding-left: 20px;
+    
+}
+    
+    .logos p{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.logosabout h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+    padding-bottom: 15px;
+}
+
+.logosabout p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    
+}
+
+.logos h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    
+}
+
+    
+
+}/*/ Closing Tag /*/
+
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+  body{
+    background:#fff;
+  }
+    
+    .contactbuttonhover{
+        width: 50%;
+        padding-right: 100px;
+        align-content: center;
+        margin-right: 288px;
+    }
+.contactme h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: #474d54;
+    padding-bottom: 50px;
+    align-content: left;
+    text-align: left;
+    margin-left: 350px;
+    padding-top: 20px;
+}
+    
+    .portfoliotext h1{
+    color:#474d54;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 60px;
+    padding-right: 15px;
+    padding-top: 40px;
+   
+}
+
+.portfoliotext h2{
+    font-family: font-family: 'Raleway', sans-serif;
+    color: #474d54;
+    text-align: left;
+    padding-bottom: 36px; 
+    padding-left: 60px;
+    
+}
+    
+    
+.logos p{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.logosabout h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.logosabout p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+}
+
+.logos h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    
+}
+
+
+}
+
+
+
+/*/ Closing Tag /*/
+
